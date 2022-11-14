@@ -26,10 +26,16 @@ main{
   flex-direction: column;
   align-content: center;
 }
+.card:nth-of-type(even){
+  border: 2px dotted green;
+}
+.card:nth-of-type(odd){
+  border: 2px solid black;
+}
 
 /* lemuella"s css styles */
 .lemuella_header{
-  color: blue;
+  color: rgb(255, 0, 174);
   text-align: center;
   margin-top: 30px;
 }
