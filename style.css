@@ -1,0 +1,61 @@
+
+main{
+  padding-top: 40px;
+}
+
+.project_tittle{
+  text-align: center;
+}
+
+.card_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+ 
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 250px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.card:nth-of-type(even){
+  border: 2px dotted green;
+}
+.card:nth-of-type(odd){
+  border: 2px solid black;
+}
+
+/* lemuella"s css styles */
+.lemuella_header{
+  color: rgb(255, 0, 174);
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*Nancy's CSS Style*/
+.nancy-header{
+  color:purple;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*Cyndi's CSS Style*/
+.cyndi-header{
+  color: burlywood;
+  text-align: center;
+  margin-top: 30px;
+}
+/*SAMUEL's CSS Style*/
+.samt_header{
+  color: burlywood;
+  text-align: center;
+  margin-top: 30px;
+}
